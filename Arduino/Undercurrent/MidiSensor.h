@@ -20,7 +20,7 @@ public :
   MidiSensor() { 
     currentVolume = 0; 
     riseSmoothSpeed = 0.1;  
-    fallSmoothSpeed = 1;    
+    fallSmoothSpeed = 0.1;    
     lastLevel = 0;
     minThreshold = 0; 
     maxThreshold = 1024; 
